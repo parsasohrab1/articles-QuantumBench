@@ -1,0 +1,269 @@
+{
+ "note": "H2/STO-3G; classical = PySCF HF and FCI; quantum = noiseless statevector + shot noise, one-parameter UCC-like ansatz, Rotosolve (3 evaluations); 200 repetitions per setting; chemical accuracy 1.6 mHa",
+ "bonds": [
+  {
+   "r_angstrom": 0.5,
+   "e_hf": -1.042996274540095,
+   "e_fci": -1.0551597944706248,
+   "hf_error_mha": 12.163519930529887,
+   "n_pauli_terms": 14,
+   "t_hf_s": 0.1054093019999982,
+   "t_fci_s": 0.0010103059999551078,
+   "fock_space_min_minus_fci": 1.9984014443252818e-15,
+   "shots": {
+    "100": {
+     "mean_energy_error_mha": 0.6974012757219783,
+     "p95_energy_error_mha": 2.6637527118857096,
+     "share_chemical_accuracy": 0.865,
+     "reported_energy_rmse_mha": 12.007144822691831,
+     "reported_share_chemical_accuracy": 0.115,
+     "total_shots": 5600
+    },
+    "1000": {
+     "mean_energy_error_mha": 0.08198234730659615,
+     "p95_energy_error_mha": 0.30148009807484655,
+     "share_chemical_accuracy": 1.0,
+     "reported_energy_rmse_mha": 3.4821696393087236,
+     "reported_share_chemical_accuracy": 0.315,
+     "total_shots": 56000
+    },
+    "10000": {
+     "mean_energy_error_mha": 0.007848736871091111,
+     "p95_energy_error_mha": 0.028685743723810823,
+     "share_chemical_accuracy": 1.0,
+     "reported_energy_rmse_mha": 1.2519473118597935,
+     "reported_share_chemical_accuracy": 0.79,
+     "total_shots": 560000
+    },
+    "100000": {
+     "mean_energy_error_mha": 0.0006169651135146115,
+     "p95_energy_error_mha": 0.0024821281247366933,
+     "share_chemical_accuracy": 1.0,
+     "reported_energy_rmse_mha": 0.3699331129630383,
+     "reported_share_chemical_accuracy": 1.0,
+     "total_shots": 5600000
+    }
+   }
+  },
+  {
+   "r_angstrom": 0.735,
+   "e_hf": -1.1169989967540035,
+   "e_fci": -1.137306035753399,
+   "hf_error_mha": 20.307038999395566,
+   "n_pauli_terms": 14,
+   "t_hf_s": 0.016031969999971807,
+   "t_fci_s": 0.0009747409999931733,
+   "fock_space_min_minus_fci": -4.440892098500626e-16,
+   "shots": {
+    "100": {
+     "mean_energy_error_mha": 0.5199169101937162,
+     "p95_energy_error_mha": 1.6805735837822735,
+     "share_chemical_accuracy": 0.935,
+     "reported_energy_rmse_mha": 12.269705345079576,
+     "reported_share_chemical_accuracy": 0.08,
+     "total_shots": 5600
+    },
+    "1000": {
+     "mean_energy_error_mha": 0.04636609214083043,
+     "p95_energy_error_mha": 0.15847721381575525,
+     "share_chemical_accuracy": 1.0,
+     "reported_energy_rmse_mha": 3.6384114963681813,
+     "reported_share_chemical_accuracy": 0.33,
+     "total_shots": 56000
+    },
+    "10000": {
+     "mean_energy_error_mha": 0.004446921540968152,
+     "p95_energy_error_mha": 0.01599270870639157,
+     "share_chemical_accuracy": 1.0,
+     "reported_energy_rmse_mha": 1.2928991349605081,
+     "reported_share_chemical_accuracy": 0.795,
+     "total_shots": 560000
+    },
+    "100000": {
+     "mean_energy_error_mha": 0.0004954644931676189,
+     "p95_energy_error_mha": 0.0016652818811913044,
+     "share_chemical_accuracy": 1.0,
+     "reported_energy_rmse_mha": 0.435160898288259,
+     "reported_share_chemical_accuracy": 1.0,
+     "total_shots": 5600000
+    }
+   }
+  },
+  {
+   "r_angstrom": 1.0,
+   "e_hf": -1.0661086493179366,
+   "e_fci": -1.1011503302326187,
+   "hf_error_mha": 35.041680914682075,
+   "n_pauli_terms": 14,
+   "t_hf_s": 0.016393201999960638,
+   "t_fci_s": 0.0009370220000164409,
+   "fock_space_min_minus_fci": -4.440892098500626e-16,
+   "shots": {
+    "100": {
+     "mean_energy_error_mha": 0.3149374237026259,
+     "p95_energy_error_mha": 1.1473721362919018,
+     "share_chemical_accuracy": 0.975,
+     "reported_energy_rmse_mha": 12.283048659271543,
+     "reported_share_chemical_accuracy": 0.09,
+     "total_shots": 5600
+    },
+    "1000": {
+     "mean_energy_error_mha": 0.030094091531531753,
+     "p95_energy_error_mha": 0.1267497764480873,
+     "share_chemical_accuracy": 1.0,
+     "reported_energy_rmse_mha": 4.003931790354089,
+     "reported_share_chemical_accuracy": 0.335,
+     "total_shots": 56000
+    },
+    "10000": {
+     "mean_energy_error_mha": 0.0029416487349509524,
+     "p95_energy_error_mha": 0.010791149011146748,
+     "share_chemical_accuracy": 1.0,
+     "reported_energy_rmse_mha": 1.2982375107513164,
+     "reported_share_chemical_accuracy": 0.81,
+     "total_shots": 560000
+    },
+    "100000": {
+     "mean_energy_error_mha": 0.0003111888738238644,
+     "p95_energy_error_mha": 0.0010693756862689685,
+     "share_chemical_accuracy": 1.0,
+     "reported_energy_rmse_mha": 0.4123887760205327,
+     "reported_share_chemical_accuracy": 1.0,
+     "total_shots": 5600000
+    }
+   }
+  },
+  {
+   "r_angstrom": 1.5,
+   "e_hf": -0.9108735545943865,
+   "e_fci": -0.9981493534714101,
+   "hf_error_mha": 87.27579887702363,
+   "n_pauli_terms": 14,
+   "t_hf_s": 0.015937448999977732,
+   "t_fci_s": 0.000981023000008463,
+   "fock_space_min_minus_fci": 0.0,
+   "shots": {
+    "100": {
+     "mean_energy_error_mha": 0.17319088168327834,
+     "p95_energy_error_mha": 0.6796778308525485,
+     "share_chemical_accuracy": 0.995,
+     "reported_energy_rmse_mha": 12.490047266417973,
+     "reported_share_chemical_accuracy": 0.08,
+     "total_shots": 5600
+    },
+    "1000": {
+     "mean_energy_error_mha": 0.01570642302866576,
+     "p95_energy_error_mha": 0.05965696800192544,
+     "share_chemical_accuracy": 1.0,
+     "reported_energy_rmse_mha": 3.959374951164305,
+     "reported_share_chemical_accuracy": 0.265,
+     "total_shots": 56000
+    },
+    "10000": {
+     "mean_energy_error_mha": 0.0012099898314049673,
+     "p95_energy_error_mha": 0.0041862233768008555,
+     "share_chemical_accuracy": 1.0,
+     "reported_energy_rmse_mha": 1.269934128955885,
+     "reported_share_chemical_accuracy": 0.825,
+     "total_shots": 560000
+    },
+    "100000": {
+     "mean_energy_error_mha": 0.0001536966554382957,
+     "p95_energy_error_mha": 0.0006436957969646604,
+     "share_chemical_accuracy": 1.0,
+     "reported_energy_rmse_mha": 0.36818506120495514,
+     "reported_share_chemical_accuracy": 1.0,
+     "total_shots": 5600000
+    }
+   }
+  },
+  {
+   "r_angstrom": 2.0,
+   "e_hf": -0.7837926542773528,
+   "e_fci": -0.9486411121761853,
+   "hf_error_mha": 164.84845789883252,
+   "n_pauli_terms": 14,
+   "t_hf_s": 0.014597180999999182,
+   "t_fci_s": 0.0009686789999818757,
+   "fock_space_min_minus_fci": -3.3306690738754696e-16,
+   "shots": {
+    "100": {
+     "mean_energy_error_mha": 0.18170856395297807,
+     "p95_energy_error_mha": 0.7573518900933032,
+     "share_chemical_accuracy": 0.995,
+     "reported_energy_rmse_mha": 10.862862653501338,
+     "reported_share_chemical_accuracy": 0.1,
+     "total_shots": 5600
+    },
+    "1000": {
+     "mean_energy_error_mha": 0.017973463357005004,
+     "p95_energy_error_mha": 0.06008801091141874,
+     "share_chemical_accuracy": 1.0,
+     "reported_energy_rmse_mha": 3.340780138967863,
+     "reported_share_chemical_accuracy": 0.36,
+     "total_shots": 56000
+    },
+    "10000": {
+     "mean_energy_error_mha": 0.0016556250930838123,
+     "p95_energy_error_mha": 0.006118303728452898,
+     "share_chemical_accuracy": 1.0,
+     "reported_energy_rmse_mha": 0.9823321256401973,
+     "reported_share_chemical_accuracy": 0.895,
+     "total_shots": 560000
+    },
+    "100000": {
+     "mean_energy_error_mha": 0.00017549351646550804,
+     "p95_energy_error_mha": 0.0007121565910317419,
+     "share_chemical_accuracy": 1.0,
+     "reported_energy_rmse_mha": 0.31308409956123096,
+     "reported_share_chemical_accuracy": 1.0,
+     "total_shots": 5600000
+    }
+   }
+  },
+  {
+   "r_angstrom": 2.5,
+   "e_hf": -0.7029435997235269,
+   "e_fci": -0.9360549199556059,
+   "hf_error_mha": 233.11132023207892,
+   "n_pauli_terms": 14,
+   "t_hf_s": 0.012361184000042158,
+   "t_fci_s": 0.0008125889999632818,
+   "fock_space_min_minus_fci": -2.220446049250313e-16,
+   "shots": {
+    "100": {
+     "mean_energy_error_mha": 0.19433889681026717,
+     "p95_energy_error_mha": 0.7331085522265106,
+     "share_chemical_accuracy": 1.0,
+     "reported_energy_rmse_mha": 8.275182954149432,
+     "reported_share_chemical_accuracy": 0.155,
+     "total_shots": 5600
+    },
+    "1000": {
+     "mean_energy_error_mha": 0.019577659228250388,
+     "p95_energy_error_mha": 0.07837659482987641,
+     "share_chemical_accuracy": 1.0,
+     "reported_energy_rmse_mha": 2.8360930934929853,
+     "reported_share_chemical_accuracy": 0.44,
+     "total_shots": 56000
+    },
+    "10000": {
+     "mean_energy_error_mha": 0.0016509255281477175,
+     "p95_energy_error_mha": 0.005220682820661348,
+     "share_chemical_accuracy": 1.0,
+     "reported_energy_rmse_mha": 0.9214618086831262,
+     "reported_share_chemical_accuracy": 0.895,
+     "total_shots": 560000
+    },
+    "100000": {
+     "mean_energy_error_mha": 0.00022894627047409521,
+     "p95_energy_error_mha": 0.0008950980614652595,
+     "share_chemical_accuracy": 1.0,
+     "reported_energy_rmse_mha": 0.2588075585157157,
+     "reported_share_chemical_accuracy": 1.0,
+     "total_shots": 5600000
+    }
+   }
+  }
+ ]
+}
